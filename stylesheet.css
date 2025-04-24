@@ -13,6 +13,7 @@ Nav {
     padding-top: 1em;
     text-align: right;
     line-height: 1em;
+    list-style-type: circle ;
     text-decoration: underline;
     text-decoration-thickness:0.1em;
     color: rgb(0, 0, 0);
@@ -33,7 +34,6 @@ h1{
         font-style: normal;
       }
       
-
 h2{
     font-size: 2em;
     color: rgb(0, 0, 0);
