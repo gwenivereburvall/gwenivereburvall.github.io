@@ -6,7 +6,8 @@ body {
     text-align: left;
     text-transform: capitalize;
     background-image:url(backg.jpg);
-    background-color: rgb(212, 102, 0);
+    background-color: rgb(158, 58, 0);
+    background-repeat: repeat-y;
 }
 
 Nav {
@@ -29,9 +30,9 @@ h1{
     text-decoration-thickness: 3%;
     padding: 15px 0px 5px 0px ;
     text-align: left;
-        font-family: "Jacquard 24", system-ui;
-        font-weight: 400;
-        font-style: normal;
+    font-family: "Jacquard 24", system-ui;
+    font-weight: 400;
+    font-style: normal;
       }
       
 h2{
@@ -40,8 +41,8 @@ h2{
     text-transform: lowercase;
     text-decoration: underline;
     font-family: "Jacquard 24", system-ui;
-        font-weight: 400;
-        font-style: normal;
+    font-weight: 400;
+    font-style: normal;
 }
 
 h3{
@@ -63,7 +64,6 @@ footer{
     color: rgb(0, 0, 0);
     text-transform: uppercase;
     width: 30%;
-    text-decoration: dotted;
 }
 p{
 width: 31%;
@@ -98,8 +98,13 @@ a:active{
     text-decoration-thickness: 3%;
 }
 
-li {
-    display: inline;
+ul {
+    display: inline; 
+    list-style-type: none;
+}
+
+ol {
+    list-style-type: square;
 }
 
 image {
