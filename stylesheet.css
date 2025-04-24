@@ -1,0 +1,107 @@
+body {
+    font-family: "Inconsolata", monospace;
+    font-size: .8em;
+    color: #000000;
+    line-height: 1.1em;
+    text-align: left;
+    text-transform: capitalize;
+    background-image:url(backg.jpg);
+    background-color: rgb(212, 102, 0);
+}
+
+Nav {
+    padding-top: 1em;
+    text-align: right;
+    line-height: 1em;
+    text-decoration: underline;
+    text-decoration-thickness:0.1em;
+    color: rgb(0, 0, 0);
+}
+a {
+    box-sizing: border-box;
+    padding: 20px;
+}
+h1{
+    font-size: 5.6em;
+    color: black;
+    text-transform:lowercase;
+    text-decoration-thickness: 3%;
+    padding: 15px 0px 5px 0px ;
+    text-align: left;
+        font-family: "Jacquard 24", system-ui;
+        font-weight: 400;
+        font-style: normal;
+      }
+      
+
+h2{
+    font-size: 2em;
+    color: rgb(0, 0, 0);
+    text-transform: lowercase;
+    text-decoration: underline;
+    font-family: "Jacquard 24", system-ui;
+        font-weight: 400;
+        font-style: normal;
+}
+
+h3{
+    font-size: 1.1em;
+    color: black;
+    text-transform: uppercase;
+    padding: 5px 0px 5px 0px ;
+    line-height: 1em;
+}
+h5{
+    font-size: 1em;
+    color: black;
+    text-transform: uppercase;
+    line-height: 1em;
+}
+
+footer{
+    font-size: 1em;
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    width: 30%;
+    text-decoration: dotted;
+}
+p{
+width: 31%;
+height: auto;
+text-align: justify;
+}
+
+a:link{
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited{
+    color: rgb(213, 47, 255);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover{
+    color: rgb(191, 201, 0);
+    background-color: transparent;
+    text-decoration: underline;
+    text-decoration-style: wavy;
+    text-decoration-thickness: 3%;
+}
+a:active{
+    color: green;
+    background-color: transparent;
+    text-decoration: underline;
+    text-decoration-style: wavy;
+    text-decoration-thickness: 3%;
+}
+
+li {
+    display: inline;
+}
+
+image {
+    object-position: 80%;
+}
