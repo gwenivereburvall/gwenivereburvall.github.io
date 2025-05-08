@@ -172,6 +172,10 @@ img {
     width: 40%;
     padding-top: 10%;
 }
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
  
 #container {
 	width: 100%;
@@ -184,6 +188,8 @@ nav {
 	top: 0;
 	left: 0;
 	width: 100%;
+    padding-bottom: 10%;
+    margin-bottom: auto;
 }
  
 .columns {float: right;}
@@ -202,9 +208,6 @@ nav {
 
 div.expRow {
     margin-bottom: 2em;
-}
-.col-12 {
-    width: 100%;
 }
 .columns {
     float: right;
