@@ -1,13 +1,24 @@
+/* my css */
+/* blah */
+
 * {margin: 0; padding: 0;} 
 body {
     font-family: "Inconsolata", monospace;
     font-size: .8em;
     color: #000000;
     line-height: 1.1em;
-    text-align: left;
     text-transform: capitalize;
     background-color: rgb(228, 226, 219);
     background-repeat: repeat-y;
+    padding-left: 25px;
+    padding-right:25px ;
+    padding-top:25px ;
+    padding-bottom: 25px ;
+    background-clip: content-box;
+    background-size: 40%;
+    overflow: auto;
+    position: relative;
+    display: block;
 }
 
 #wrapper
@@ -45,7 +56,7 @@ div {
 Nav {
     padding-top: 3em;
     padding-left: 10%;
-    text-align: left;
+    text-align: right;
     font-size: 0.8em;
     line-height: 1em;
     width: 30%;
@@ -58,8 +69,20 @@ a {
     box-sizing: border-box;
     padding: 20px;
 }
+
+ul#mainNav {
+    list-style-type: none;
+    display: flex;
+    float: left;
+    width: 100%;
+    height: 20%;
+    padding: 0%;
+    gap: 2%;
+    margin-top: 2%;
+}
+
 h1{
-    font-size: 5.6em;
+    font-size: 8.5em;
     color: black;
     text-transform:lowercase;
     text-decoration-thickness: 3%;
@@ -115,7 +138,8 @@ padding: 100%;
 margin: 100%;
 overflow: auto;
 position: fixed;
-display: inline;
+display: grid;
+grid-template-columns: 1fr 1fr ;
 
 }
 
@@ -169,12 +193,16 @@ ol {
 img {
     object-position: 100%;
     height: auto;
-    width: 40%;
+    width: 80%;
     padding-top: 10%;
+    padding-left: 30%;
 }
 img {
     overflow-clip-margin: content-box;
     overflow: clip;
+    display: block;
+    overflow: clip;
+    overflow-clip-margin: content-box;
 }
  
 #container {
@@ -192,7 +220,7 @@ nav {
     margin-bottom: auto;
 }
  
-.columns {float: right;}
+.columns {float: left;}
 .col-1 {width: 8.33%;} 
 .col-2 {width: 16.66%;} 
 .col-3 {width: 25%;} 
