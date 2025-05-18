@@ -1,0 +1,36 @@
+body{
+    background-color: rgb(255, 255, 255);
+    background-repeat: initial;
+    font-family: "Inconsolata", monospace;
+    padding-left: 3rem;
+    padding-right: 4rem;
+}
+
+h1 {
+    font-family: "Jacquard 24", system-ui;
+    font-size: 12rem;
+    padding-left: 3rem;
+    text-transform: lowercase;
+}
+
+h3{
+    font-size: 2rem;
+    padding-left: 3rem;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li{
+    display: inline;
+    padding-left: 3rem;
+    padding-top: 3rem;
+}
+.row{
+    padding-bottom: 2rem;
+}
+/*
+.six.columns {
+    width: 48%;
+} */
