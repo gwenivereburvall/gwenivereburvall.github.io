@@ -8,8 +8,8 @@ body{
 
 h1 {
     font-family: "Jacquard 24", system-ui;
-    font-size: 12rem;
-    padding-left: 3rem;
+    font-size: 10rem;
+    padding-left: 1rem;
     text-transform: lowercase;
 }
 
@@ -34,3 +34,26 @@ li{
 .six.columns {
     width: 48%;
 } */
+
+/* change color of my name*/
+div.animate { 
+    color: rgb(0, 0, 0);
+    animation-name: animation ; 
+    animation-duration: 10s;
+} 
+
+@keyframes animation { 
+    from {color: rgb(0, 0, 0);} 
+    to {color: rgb(139, 209, 0);} 
+} 
+
+
+/* rotate my surf picture */
+#change {
+    transition: transform 0.5s ease-in-out;
+}
+
+#change:hover 
+    {
+    transform: rotate(180deg);
+}
