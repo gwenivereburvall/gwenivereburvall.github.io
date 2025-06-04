@@ -27,15 +27,12 @@ h4{
 }
 
 image-container1 {
-    background-image: url('title page.jpg');
-    background-color: antiquewhite;
     background-size: cover;
     text-align: top left;
     line-height: 300px; 
-    color: rgb(0, 0, 0); 
     position: top right; 
 }
-
+/*
 image-container2 {
     background-image: url('The magic forest.jpg');
     background-size:cover;
@@ -50,13 +47,13 @@ image-container2 {
     position:absolute;
     top: 5%;
     left: 24%;
-    transform: translate(-50%, -50%); /* centers the text */
+    transform: translate(-50%, -50%); /* centers the text 
 }
 .overlay-text {
     position:absolute;
     top: 40%;
     left: 66%;
-    transform: translate(-50%, -50%);/* centers the text */
+    transform: translate(-50%, -50%);/* centers the text
     
 }
 
@@ -67,46 +64,45 @@ image-container2 {
     font-size: 1em;
     transform: translate(-50%, -50%); 
     }
-} */
+} 
 
 
 .overlay-text2 {
     position: absolute;
     top: 53%;
     left: 72%;
-    transform: translate(-50%, -50%); /* centers the text */
+    transform: translate(-50%, -50%); 
 }
 
 .overlay-text3 {
     position: absolute;
     top: 130%;
     left: 80%;
-    transform: translate(-80%, -50%); /* centers the text */
-}
+    transform: translate(-80%, -50%); 
 
 .overlay-text4 {
     position: absolute;
     top: 153%;
     left: 73%;
-    transform: translate(-80%, -50%); /* centers the text */
+    transform: translate(-80%, -50%); 
 }
 .overlay-text5 {
     position: absolute;
     top: 252%;
     left: 52.5%;
-    transform: translate(-80%, -50%); /* centers the text */
+    transform: translate(-80%, -50%); 
 }
 .overlay-text6 {
     position: absolute;
     top: 260%;
     left: 55%;
-    transform: translate(-80%, -50%); /* centers the text */
+    transform: translate(-80%, -50%); 
 }
 .overlay-text7 {
     position: absolute;
     top: 275%;
     left: 46%;
-    transform: translate(-80%, -50%); /* centers the text */
+    transform: translate(-80%, -50%); 
     padding-right: 420px;
     padding-left: 5px;
 }
@@ -115,7 +111,7 @@ image-container2 {
     position: absolute;
     top: 300%;
     left: 46%;
-    transform: translate(-80%, -50%); /* centers the text */
+    transform: translate(-80%, -50%); 
     padding-right: 455px;
     padding-left: 5px;
 }
@@ -124,7 +120,7 @@ image-container2 {
     position: absolute;
     top: 320%;
     left: 46%;
-    transform: translate(-80%, -50%); /* centers the text */
+    transform: translate(-80%, -50%); 
     padding-right: 300px;
     padding-left: 5px;
 }
@@ -133,7 +129,7 @@ image-container2 {
     position: absolute;
     top: 338%;
     left: 46%;
-    transform: translate(-80%, -50%); /* centers the text */
+    transform: translate(-80%, -50%); 
     padding-right: 200px;
     padding-left: 5px;
 }
@@ -141,7 +137,7 @@ image-container2 {
     position: absolute;
     top: 358%;
     left: 46%;
-    transform: translate(-80%, -50%); /* centers the text */
+    transform: translate(-80%, -50%); 
     padding-right: 450px;
     padding-left: 5px;
 }
@@ -149,13 +145,13 @@ image-container2 {
     position: absolute;
     top: 380%;
     left: 69%;
-    transform: translate(-80%, -50%); /* centers the text */
+    transform: translate(-80%, -50%); 
 }
 .overlay-text13 {
     position: absolute;
     top: 405%;
     left: 60%;
-    transform: translate(-80%, -50%); /* centers the text */
+    transform: translate(-80%, -50%); 
 }
 .overlay-text14 {
     position: absolute;
@@ -163,7 +159,7 @@ image-container2 {
     left: 48%;
     padding-right: 240px;
     padding-left: 5px;
-    transform: translate(-80%, -50%); /* centers the text */
+    transform: translate(-80%, -50%); 
 }
 .overlay-text15 {
     position: absolute;
@@ -171,7 +167,7 @@ image-container2 {
     left: 48%;
     padding-right: 240px;
     padding-left: 5px;
-    transform: translate(-80%, -50%); /* centers the text */
+    transform: translate(-80%, -50%); 
 }
 
 .overlay-text16 {
@@ -180,8 +176,57 @@ image-container2 {
     left: 80%;
     padding-right: 240px;
     padding-left: 5px;
-    transform: translate(-80%, -50%); /* centers the text */
+    transform: translate(-80%, -50%); 
+} */
+
+
+.relative {
+    position: relative;
 }
+
+.absolute {
+    position: absolute;
+}
+
+.intro-text {
+    top: 10%;
+    right: 10%;
+}
+
+.overlay-text1 {
+    top: 20%;
+    left: 30%;
+    padding-right: 120px;
+    padding-left: 5px;
+}
+
+.overlay-text2 {
+    top: 27%;
+    left: 40%;
+}
+
+.overlay-text3 {
+  left: 65%; 
+  width: 30%;
+
+}
+
+.overlay-text4 {
+    width: 40%;
+    left: 55%;
+}
+
+img{
+    width: 100%;
+}
+
+  
+  /* For devices larger than 550px */
+  @media (min-width: 550px) {
+    .container {
+      width: 100%;
+      max-width: none; }
+    }
 
 ul{
     list-style-type: none;
@@ -199,25 +244,4 @@ li{
     color: black;
 }
 
-/* rotate my surf picture */
-#change {
-    transition: transform 0.5s ease-in-out;
-    width: 30px;
-    height: 30px;
-}
-
-#change:hover 
-    {
-    transform: rotate(180deg);
-}*/
-
-.hover:hover {
-    opacity: 0.2;
-  }
   
-  .item-fade {
-    opacity: 0.8;
-    transition: opacity .25s ease-in-out;
-    -moz-transition: opacity .25s ease-in-out;
-    -webkit-transition: opacity .25s ease-in-out;
-  }
