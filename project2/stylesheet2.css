@@ -3,9 +3,10 @@ p{
 }
 
 h1{
-    font-size: 7em ;
+   /* font-size: 7em ;*/
     font-family: "Caveat", cursive;
     font-optical-sizing: auto;
+    font-size: 7em ;
 }
 
 h2{
@@ -26,11 +27,70 @@ h4{
     font-optical-sizing: auto;
 }
 
+h5{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 1.6em;
+    color: beige;
+}
+
+h6{
+    font-family:"Caveat", cursive;
+    font-size: 1.4em;
+}
+
+
 image-container1 {
     background-size: cover;
     text-align: top left;
     line-height: 300px; 
     position: top right; 
+}
+
+@media screen and (max-width: 550px) {
+    .image-container1 {
+        width: 100%;
+        height: auto; 
+        max-width: 100%;
+    }
+
+    img.u-full-width{
+        width: 100%;
+        height: auto; 
+        display: block;
+    }
+
+    .intro-nav {
+        font-size: 0.1em;
+        width: 100%;
+        right: 10%;
+    }
+    
+    p{
+        font-size: 0.2em;
+    }
+    
+
+    h1{
+        font-size: 2em;
+    }
+
+    h2 {
+        font-size:1em ;
+    }
+
+    h3{
+        font-size: 1em;
+    }
+
+    h4
+    {
+        font-size: 0.5em;
+    }
+
+    h5
+    {
+        font-size: 0.5em;
+    }
 }
 /*
 image-container2 {
@@ -254,7 +314,7 @@ image-container2 {
 
 
 .chapter1-text1{
-    top: 15%;
+    top: 17%;
     right: 72%;
     z-index: 20;
     width: 25%;
@@ -458,11 +518,285 @@ image-container2 {
 }
 
 .chapter2-text20{
-    top: 10%;
-    right: 45%;
+    top: 5%;
+    right: 46%;
+    z-index: 20;
+    width: 80%;
+}
+
+.chapter2-text21{
+    top: 18%;
+    right: 31%;
+    z-index: 20;
+    width: 80%;
+}
+
+.chapter2-text22{
+    top: 45%;
+    right: 15%;
+    z-index: 20;
+    width: 80%;
+}
+
+.chapter2-text23{
+    top: 72%;
+    right: 35%;
+    z-index: 20;
+    width: 80%;
+    text-align: center;
+}
+
+
+.chapter2-text24{
+    top: 78%;
+    right: 31%;
     z-index: 20;
     width: 100%;
+    text-align: center;
 }
+
+.chapter3-text1{
+    top: 0%;
+    right: 0%;
+    left: 1%;
+    z-index: 20;
+    width: 100%;
+    text-align: center;
+    color: beige;
+}
+
+.chapter3-text2{
+    top: 14%;
+    right: 34%;
+    z-index: 20;
+    width: 30%;
+    text-align: center;
+    color: beige;
+    
+}
+
+.chapter3-text3{
+    top: 29%;
+    right: 41%;
+    z-index: 20;
+    width: 15%;
+    text-align: center;
+    color: beige;
+    
+}
+
+.chapter3-text4{
+    top: 8%;
+    right: 62%;
+    z-index: 20;
+    width: 28%;
+    text-align: center;
+    
+}
+
+.chapter3-text5{
+    top: 72%;
+    right: 62%;
+    z-index: 20;
+    width: 28%;
+    text-align: center;
+    
+}
+
+.chapter3-text6{
+    top: 95%;
+    right: 62%;
+    z-index: 20;
+    width: 28%;
+    text-align: center;
+    
+}
+
+.chapter3-text7{
+    top: 32%;
+    right: 15%;
+    z-index: 20;
+    width: 70%;
+    text-align: center;
+    
+}
+
+.chapter3-text8{
+    top: 41%;
+    right: 10%;
+    z-index: 20;
+    width: 40%;
+    text-align: center;
+    
+}
+
+.chapter3-text9{
+    top: 51%;
+    right: 10%;
+    z-index: 20;
+    width: 40%;
+    text-align: center; 
+}
+
+.chapter4-text1{
+    top: 26%;
+    right: 17.5%;
+    z-index: 20;
+    width: 36%;
+    text-align: center; 
+}
+
+.chapter4-text2{
+    top: 36%;
+    right: 17.5%;
+    z-index: 20;
+    width: 36%;
+    text-align: center; 
+}
+
+.chapter4-text2{
+    top: 96%;
+    right: 4.5%;
+    z-index: 20;
+    width: 33%;
+    text-align: center; 
+}
+
+.chapter4-text3{
+    top: 25%;
+    right: 6%;
+    z-index: 20;
+    width: 33%;
+    text-align: center; 
+}
+
+.chapter4-text4{
+    top: 37%;
+    right: 68%;
+    z-index: 20;
+    width: 33%;
+    text-align: center; 
+}
+
+.chapter4-text5{
+    top: 41%;
+    right: 51%;
+    z-index: 20;
+    width: 33%;
+    text-align: center; 
+}
+
+.chapter4-text6{
+    top: 50%;
+    right: 19%;
+    z-index: 20;
+    width: 44%;
+    text-align: center; 
+}
+
+.chapter4-text7{
+    top: 67.5%;
+    right: 50%;
+    z-index: 20;
+    width: 33%;
+    text-align: center; 
+}
+
+.chapter4-text8{
+    top: 88%;
+    right: 26%;
+    z-index: 20;
+    width: 16%;
+    text-align: center; 
+}
+.chapter4-text9{
+    top: 101%;
+    right: 10%;
+    z-index: 20;
+    width: 80%;
+    text-align: center; 
+}
+
+.chapter4-text10{
+    top: 15%;
+    right: 10%;
+    z-index: 20;
+    width: 30%;
+    text-align: center; 
+}
+
+.chapter4-text11{
+    top: 37%;
+    right: 20%;
+    z-index: 20;
+    width: 30%;
+    text-align: center; 
+}
+
+.chapter4-text12{
+    top: 47%;
+    right: 30%;
+    z-index: 20;
+    width: 35%;
+    text-align: center; 
+}
+
+.chapter4-text13{
+    top: 59%;
+    right: 40%;
+    z-index: 20;
+    width: 30%;
+    text-align: center; 
+}
+
+.chapter4-text14{
+    top: 85%;
+    right: 66%;
+    z-index: 20;
+    width: 30%;
+    text-align: center; 
+}
+
+.chapter4-text15{
+    top: 100%;
+    right: 54.5%;
+    z-index: 20;
+    width: 50%;
+    text-align: center; 
+}
+
+.chapter4-text16{
+    top: 18%;
+    right: 57%;
+    z-index: 20;
+    width: 50%;
+    text-align: center; 
+}
+
+.chapter4-text17{
+    top: 35%;
+    right: 64.5%;
+    z-index: 20;
+    width: 30%;
+    text-align: left; 
+}
+
+.chapter4-text18{
+    top: 55%;
+    right: 60%;
+    z-index: 20;
+    width: 30%;
+    text-align: left; 
+}
+
+.chapter4-text19{
+    top: 90%;
+    right: 24%;
+    z-index: 20;
+    width: 50%;
+    text-align: center; 
+}
+
 
 img.u-full-width{
     width: 100%;
@@ -485,7 +819,7 @@ ul{
 
 li{
     display: inline;
-    padding-right: 6em;
+    padding-right: 8.5em;
     left:10% ;
     font-family: 'Times New Roman', Times, serif;
     font-size: 0.63em;
@@ -540,6 +874,20 @@ img#theboat {
     animation-duration: 40s;
     animation-iteration-count: infinite;
 }
+
+@media (max-width: 550px) {
+    img#theboat {
+      width: 25px ;
+      height: auto ;
+
+      top: 45% ;  /* Optional position adjustment */
+      right: 10% ; /* Optional position adjustment */
+      animation-name: theboat;
+      animation-delay: 0s;
+      animation-duration: 40s;
+      animation-iteration-count: infinite;
+    }
+  }
 
 /*#image-wrapper {
     position: relative;       
@@ -628,7 +976,7 @@ img#textbubble {
 #textbubble1 {
     position: absolute;
     top: 67%;
-    left: 48%;
+    left: 46%;
     width: 15%;
     height: auto;
     opacity: 1;
@@ -638,6 +986,25 @@ img#textbubble {
 }
 
 .danger-wrapper:hover #textbubble1 {
+    width: 35%;
+    opacity: 1;
+    pointer-events: auto;
+}
+
+
+#textbubble2 {
+    position: absolute;
+    top: 16%;
+    left: 46%;
+    width: 15%;
+    height: auto;
+    opacity: 1;
+    transition: all 0.6s ease-in-out;
+    z-index: 20;
+    pointer-events: none;
+}
+
+.danger-wrapper:hover #textbubble2 {
     width: 35%;
     opacity: 1;
     pointer-events: auto;
