@@ -819,7 +819,7 @@ ul{
 
 li{
     display: inline;
-    padding-right: 8.5em;
+    padding-right: 5em;
     left:10% ;
     font-family: 'Times New Roman', Times, serif;
     font-size: 0.63em;
@@ -973,9 +973,9 @@ img#textbubble {
     position: relative;
 }
 
-#textbubble1 {
+#textbubble01 {
     position: absolute;
-    top: 67%;
+    top: 66%;
     left: 46%;
     width: 15%;
     height: auto;
@@ -985,17 +985,17 @@ img#textbubble {
     pointer-events: none;
 }
 
-.danger-wrapper:hover #textbubble1 {
+.danger-wrapper:hover #textbubble01 {
     width: 35%;
     opacity: 1;
     pointer-events: auto;
 }
 
 
-#textbubble2 {
+#textbubble02 {
     position: absolute;
     top: 16%;
-    left: 46%;
+    left: 44%;
     width: 15%;
     height: auto;
     opacity: 1;
@@ -1004,7 +1004,7 @@ img#textbubble {
     pointer-events: none;
 }
 
-.danger-wrapper:hover #textbubble2 {
+.danger-wrapper:hover #textbubble02 {
     width: 35%;
     opacity: 1;
     pointer-events: auto;
